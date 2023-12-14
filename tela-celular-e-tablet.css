@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@media only screen and (max-width: 600px) {
+
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +11,8 @@
 
 header {
     background-color: #007fc7;
+    position: absolute;
+    width: 100vw;
 }
 
 .cabecalho {
@@ -50,9 +54,11 @@ header {
 
 .menu-vertical a {
     padding: 10px;
+    padding-bottom: 15px;
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: 1.5rem;
 }
 
 .menu-vertical a:hover {
@@ -63,15 +69,18 @@ header {
 
 /***** SESSÃO 1 ****/
 .sessao1 {
+    background-color: purple;
+    height: 410px;
     width: 100vw;
+    display: flex;
+    justify-content: center;
+    background: url('imagens/banner1.png') no-repeat;
+    background-position: center center;
+    background-size: contain;
 }
 
-.wr {
-    font-size: 60px;
-    color: transparent;
-    -webkit-text-stroke: #007fc7 2px;
-    transform: rotate(-90deg);
+/***** CRIAR UMA ANIMAÇÃO VETORIAL PARA SUBSTITUIR A IMAGEM *****/
 
-    display: flex;
-    justify-content: left;
+
+
 }
