@@ -8,28 +8,23 @@
     <script src="javascript.js"></script>
 </head>
 <body>
-    <header>
+    <div class="container">
         <div class="cabecalho">
-            <div class="logo">
-                <img src="imagens/logo.png" alt="">
-            </div>
-            
+            <img class="logo" src="imagens/logo.png" alt="Logo">
+
             <div onclick="abrirMenu()" class="icone-menu" id="icone-menu">☰</div>
 
-            <div onclick="fecharMenu()" class="x" id="x">✖</div>
-        </div>
+            <div onclick="fecharMenu()" class="x" id="x">✘</div>
 
-        <div class="alinhamento-menu">
-            <div class="menu-vertical" id="menu-vertical">
-                <a href="">HOME</a>
-                <a href="">CONTATO</a>
-                <a href="">VISITA</a>
-            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CONTATO</a></li>
+                    <li><a href="">VISITA</a></li>
+                    <li><a href="">AGENDA</a></li>
+                </ul>
+            </nav>
         </div>
-    </header>
-
-    <section class="sessao1">
-        
-    </section>
+    </div>
 </body>
 </html>
