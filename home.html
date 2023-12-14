@@ -8,23 +8,27 @@
     <script src="javascript.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="cabecalho">
-            <img class="logo" src="imagens/logo.png" alt="Logo">
+    <div class="container"> <!-- Abre container -->
+        <header>
+            <div class="cabecalho"> <!-- Abre cabeçalho -->
+                <img class="logo" src="imagens/logo.png" alt="Logo">
+                <div onclick="abrirMenu()" class="icone-menu" id="icone-menu">☰</div>
+                <div onclick="fecharMenu()" class="x" id="x">✘</div>
+                <nav class="menu">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">CONTATO</a></li>
+                        <li><a href="">VISITA</a></li>
+                        <li><a href="">AGENDA</a></li>
+                    </ul>
+                </nav>
+            </div> <!-- Fecha cabeçalho -->
+        </header>
 
-            <div onclick="abrirMenu()" class="icone-menu" id="icone-menu">☰</div>
-
-            <div onclick="fecharMenu()" class="x" id="x">✘</div>
-
-            <nav class="menu">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">CONTATO</a></li>
-                    <li><a href="">VISITA</a></li>
-                    <li><a href="">AGENDA</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
+        <section class="sessao1">
+           <h2 class="marque">Marque seu horário</h2>
+           <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt veniam a officia maxime soluta reiciendis eaque at, laboriosam recusandae ducimus doloremque non rem eligendi cum expedita incidunt omnis voluptas ipsa?</p>
+        </section>
+    </div> <!-- Fecha container -->
 </body>
 </html>

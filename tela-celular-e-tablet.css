@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 600px) {
 
 * {
     margin: 0;
@@ -9,10 +9,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header {
+    width: 100vw;
+    height: 93px;
+}
+
 .cabecalho {
+    background-color: #3aafa9;
+    width: 100vw;
+    position: fixed;
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .logo {
     padding: 20px;
@@ -21,18 +31,18 @@
 .icone-menu {
     font-size: 40px;
     padding: 20px;
-    color: #007fc7;
+    color: white;
 }
 
 .x {
     font-size: 40px;
     padding: 20px;
-    color: #007fc7;
+    color: white;
     display: none;
 }
 
 .menu {
-    background-color: #007fc7;
+    background-color: #3aafa9;
     position: fixed;
     top: 0;
     left: 0;
@@ -59,7 +69,7 @@
 
 /**** ATIVAR MENU ****/
 .menu2 {
-    background-color: #007fc7;
+    background-color: #3aafa9;
     position: fixed;
     top: 0;
     left: 0;
@@ -84,4 +94,25 @@
     font-size: 20px;
 }
 
+.menu2 li:hover {
+    background-color: #297e77;
+}
+
+/***** SESSÃO 1 *****/
+.sessao1 {
+    top: 100px;
+}
+
+h2.marque {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.lorem {
+    font-size: 20px;
+    padding: 0 40px;
+    text-align: center;
+}
 }
