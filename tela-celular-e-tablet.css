@@ -1,5 +1,8 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@300&family=Manrope&display=swap');
+
 @media only screen and (max-width: 600px) {
 
 * {
@@ -21,6 +24,7 @@ header {
     position: fixed;
     display: flex;
     justify-content: space-between;
+    z-index: 4;
 }
 
 
@@ -79,6 +83,7 @@ header {
     height: 100%;
     transform: translateX(0);
     transition: 0.3s ease-in;
+    z-index: 5;
 }
 
 .menu2 ul {
@@ -105,13 +110,71 @@ header {
     height: 100vh;
 }
 
-.banner {
-    background-color: blue;
-    background: url('imagens/banner3.png') no-repeat;
-    background-size: cover;
-    background-position: center center;
+.banner{
     width: 100vw;
+    height: 400px;
+    overflow-y: hidden;
+    background-color: cadetblue
+}
+
+.banner h1 {
+    color: white;
+    background-color: #3aafa9;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.h11 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 15px;
+}
+
+.banner p {
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    padding: 10px;
+    background-color: #3aafa9;
+    border-radius: 10px  10px 10px 0;
+}
+
+.pp {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    position: relative;
+    top: 50px;
+}
+
+.e {
+    color: #297e77;
+}
+
+.bola {
+    width: 250px;
     height: 250px;
+    background-color: #3aafa9;
+    border-radius: 250px 0 0 250px;
+}
+
+.bola2 {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: 50px;
+    z-index: 0;
+}
+
+.circulo {
+}
+
+.foto {
+    position: relative;
+    top: -250px;
+    display: flex;
+    justify-content: right;
+    transform: scale(1.5);
 }
 
 h2.especialidades {
@@ -124,10 +187,11 @@ h2.especialidades {
 }
 
 .lorem {
-    font-size: 17px;
+    font-size: 20px;
     padding: 0 40px;
     margin-bottom: 10px;
     text-align: left;
+    font-family: 'Dancing Script', cursive;
 }
 
 .btn {
