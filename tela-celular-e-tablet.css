@@ -7,6 +7,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -166,7 +167,41 @@ h2.especialidades {
     width: 100vw;
     height: 200px;
     background-color: rgb(70, 9, 70);
+    background: url('imagens/background2.png');
 }
 
+.setas {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+    color: white;
+}
+
+.setas p {
+    padding: 90px;
+}
+
+.psi {
+    background-color: aqua;
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    display: none; /** Alteração **/
+}
+
+.background {
+    width: 100vw;
+    height: 300px;
+}
+
+.qualidade {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+}
 
 }
