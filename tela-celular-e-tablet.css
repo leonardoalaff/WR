@@ -149,7 +149,6 @@ h2.especialidades {
 .nome {
     width: 35px;
     padding: 0;
-    transform: scale(1.5);
     margin-left: 30px;
     display: flex;
     justify-content: left;
