@@ -25,6 +25,7 @@ header {
 
 
 .logo {
+    transform: scale(1.4);
     padding: 20px;
 }
 
@@ -100,19 +101,73 @@ header {
 
 /***** SESSÃO 1 *****/
 .sessao1 {
-    top: 100px;
+    height: 100vh;
 }
 
-h2.marque {
-    font-size: 30px;
-    text-align: center;
-    margin-top: 100px;
+.banner {
+    background-color: blue;
+    background: url('imagens/banner3.png') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 250px;
+}
+
+h2.especialidades {
+    font-size: 21px;
+    color: #3aafa9;
+    text-align: left;
+    margin-top: 50px;
+    margin-left: 40px;
     margin-bottom: 10px;
 }
 
 .lorem {
-    font-size: 20px;
+    font-size: 17px;
     padding: 0 40px;
-    text-align: center;
+    margin-bottom: 10px;
+    text-align: left;
 }
+
+.btn {
+    background-color: #3aafa9;
+    border: 0;
+    border-radius: 3px;
+    margin-left: 40px;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+}
+
+/***** SESSÃO 2 *****/
+.sessao2 {
+    background-color: #3aafa9;
+    width: 100vw;
+    height: 100vh;
+}
+
+.nome {
+    width: 35px;
+    padding: 0;
+    transform: scale(1.5);
+    margin-left: 30px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh;
+}
+
+/***** SESSÃO 3 *****/
+.sessao3 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.roxo {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(70, 9, 70);
+}
+
+
 }
