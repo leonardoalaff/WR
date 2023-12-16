@@ -10,11 +10,27 @@
 <body>
     <div class="container"> <!-- Abre container -->
         <header>
-            <div class="cabecalho"> <!-- Abre cabeçalho -->
+            <div class="cabecalho" id="cabecalho"> <!-- Abre cabeçalho -->
+
                 <img class="logo" src="imagens/logo.png" alt="Logo">
+
+                <div class="dark-mode" id="dark-mode">
+                    <div class="img-dark">
+                        <img src="imagens/dark.svg" alt=""></div>
+
+                    <div onclick="dark()" class="mode" id="mode"></div>
+                </div>
+
+                <div class="dark-mode2" id="dark-mode2">
+                    <div class="img-dark2">
+                        <img src="imagens/dark.svg" alt=""></div>
+
+                    <div onclick="clean()" class="mode2" id="mode2"></div>
+                </div>
+
                 <div onclick="abrirMenu()" class="icone-menu" id="icone-menu">☰</div>
                 <div onclick="fecharMenu()" class="x" id="x">✖</div>
-                <nav class="menu">
+                <nav class="menu" id="menu">
                     <ul>
                         <a href=""></a><li>HOME</li></a>
                         <a href=""></a><li>CONTATO</li></a>
@@ -25,11 +41,11 @@
             </div> <!-- Fecha cabeçalho -->
         </header>
 
-        <section class="sessao1"> <!-- SESSÃO 1 -->
+        <section class="sessao1" id="sessao1"> <!-- SESSÃO 1 -->
 
             
             
-            <div class="banner">
+            <div class="banner" id="banner">
                 <div class="h11">
                     <h1>WASHINGTON ROCHA</h1>
                 </div>
@@ -39,15 +55,17 @@
 
                 <div class="bola2"><span class="bola"></span></div>
 
-                <div class="foto"><img src="imagens/foto2.svg" alt=""></div>
+                <div class="foto" id="foto"><img src="imagens/foto2.svg" alt=""></div>
+
+                <div class="foto2" id="foto2"><img src="imagens/foto3.svg" alt=""></div>
             </div>
 
-           <h2 class="especialidades">SOBRE MIM</h2>
-           <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt veniam a officia maxime soluta reiciendis eaque.</p>
-           <a href="#"><button class="btn">MARCAR HORÁRIO</button></a>
+           <h2 class="especialidades" id="especialidades">SOBRE MIM</h2>
+           <p class="lorem" id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt veniam a officia maxime soluta reiciendis eaque.</p>
+           <a href="#"><button class="btn" id="btn">MARCAR HORÁRIO</button></a>
         </section>
 
-        <section class="sessao2"> <!-- SESSÃO 2 -->
+        <section class="sessao2" id="sessao2"> <!-- SESSÃO 2 -->
             
         </section>
 
