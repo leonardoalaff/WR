@@ -22,11 +22,11 @@ function dark() {
     document.getElementById('foto').style.display = 'none'
     document.getElementById('foto2').style.display = 'flex'
     document.getElementById('especialidades').className = 'especialidades2'
-    document.getElementById('sessao1').style.backgroundColor = '#230bac'
+    document.getElementById('sessao1').style.backgroundColor = '#6239B3'
     document.getElementById('lorem').style.color = 'white'
-    document.getElementById('menu').style.backgroundColor = '#1C4194'
-    document.getElementById('btn').style.backgroundColor = '#1C4194'
-    document.getElementById('sessao2').style.backgroundColor = 'white'
+    document.getElementById('menu').style.backgroundColor = '#6239B3'
+    document.getElementById('btn').style.backgroundColor = '#8C52FF'
+    document.getElementById('sessao2').style.backgroundColor = '#D1BAFF'
 }
 
 
