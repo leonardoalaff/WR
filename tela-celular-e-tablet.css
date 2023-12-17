@@ -47,7 +47,7 @@ header {
 
 .cabecalho2 {
     overflow-y: hidden;
-    background-color: #6239B3;
+    background-color: #ceab97;
     /*background: url('imagens/bg-cab.svg') no-repeat;*/
     background-position: center center;
     background-size: cover;
@@ -64,7 +64,8 @@ header {
 }
 
 /***** DARK MODE DIA *****/
-.dark-mode {background-color: #297e77;
+.dark-mode {
+    background-color: #297e77;
     margin-top: 35px;
     width: 50px;
     height: 25px;
@@ -92,7 +93,8 @@ header {
 }
 
 /***** DARK MODE NOITE *****/
-.dark-mode2 {background-color: #462980;
+.dark-mode2 {
+    background-color: #6e5b50;
     margin-top: 35px;
     width: 50px;
     height: 25px;
@@ -106,7 +108,7 @@ header {
 
 .mode2 {
     position: absolute;
-    background-color: white;
+    background-color: black;
     width: 20px;
     height: 20px;
     border-radius: 10px;
@@ -158,6 +160,14 @@ header {
 
 ul a {
     text-decoration: none;
+}
+
+.lista2 li {
+    color: black;
+}
+
+.menu2 .lista2 li {
+    color: black;
 }
 
 /**** ATIVAR MENU ****/
@@ -221,7 +231,7 @@ ul a {
     width: 100vw;
     height: 350px;
     overflow-y: hidden;
-    background-color: #462980;
+    background-color: black;
 }
 
 .banner h1 {
@@ -236,14 +246,14 @@ ul a {
 }
 
 .banner2 h1 {
-    color: white;
+    color: black;
     font-weight: bold;
     padding: 10px;
     font-weight: lighter;
     letter-spacing: 6px;
     font-size: 20px;
     z-index: 3;
-    background-color: #8C52FF;
+    background-color: #ceab97;
 }
 
 .h11 {
@@ -285,7 +295,7 @@ ul a {
 .banner2 .bola {
     width: 250px;
     height: 250px;
-    background-color: #8C52FF;
+    background-color: #ceab97;
     border-radius: 250px 0 0 250px;
 }
 
@@ -311,7 +321,6 @@ ul a {
     display: flex;
     justify-content: right;
     transform: scale(2);
-    filter: brightness(75%);
     display: none;
 }
 
@@ -326,7 +335,7 @@ h2.especialidades {
 
 h2.especialidades2 {
     font-size: 21px;
-    color: white;
+    color: black;
     text-align: left;
     margin-top: 50px;
     margin-left: 40px;
@@ -362,7 +371,6 @@ h2.especialidades2 {
 .sessao3 {
     overflow-y: hidden;
     width: 100vw;
-    height: 100vh;
     background-image: linear-gradient(to left, rgb(0, 255, 200), purple, #007fc7);
     background-size: 500% 100%;
     animation: degrade-animado 5s infinite alternate;
@@ -434,11 +442,22 @@ h2.especialidades2 {
     color: white;
     text-align: left;
     padding: 25px;
-    font-size: 21px;
+    font-size: 26px;
     height: 100vh;
     font-family: 'Dongle', sans-serif;
 }
 
+/***** SESSÃO 4 *****/
+.sessao4 {
+    width: 100vw;
+    height: 100vh;
+}
+
+.sessao5 {
+    background-color: #007fc7;
+    width: 100vw;
+    height: 100vh;
+}
 
 @keyframes degrade-animado {
     0%{
@@ -448,12 +467,4 @@ h2.especialidades2 {
         background-position-x: 100%;
     }
 }
-
-/***** SESSÃO 4 *****/
-.sessao4 {
-    width: 100vw;
-    height: 100vh;
-}
-
-
 }

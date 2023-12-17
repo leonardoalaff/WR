@@ -22,11 +22,19 @@ function dark() {
     document.getElementById('foto').style.display = 'none'
     document.getElementById('foto2').style.display = 'flex'
     document.getElementById('especialidades').className = 'especialidades2'
-    document.getElementById('sessao1').style.backgroundColor = '#6239B3'
-    document.getElementById('lorem').style.color = 'white'
-    document.getElementById('menu').style.backgroundColor = '#6239B3'
-    document.getElementById('btn').style.backgroundColor = '#8C52FF'
-    document.getElementById('sessao2').style.backgroundColor = '#D1BAFF'
+    document.getElementById('sessao1').style.backgroundColor = '#ceab97'
+    document.getElementById('lorem').style.color = 'black'
+    document.getElementById('menu').style.backgroundColor = '#ceab97'
+    document.getElementById('lista').className = 'lista2'
+
+    document.getElementById('btn').style.backgroundColor = 'black'
+    document.getElementById('sessao2').style.backgroundColor = 'black'
+
+    document.getElementById('icone-menu').style.color = 'black'
+
+    document.getElementById('x').style.color = 'black'
+
+    document.getElementById('logo').style.filter = 'brightness(0%)'
 }
 
 
@@ -47,6 +55,13 @@ function clean() {
     document.getElementById('menu').style.backgroundColor = '#3aafa9'
     document.getElementById('btn').style.backgroundColor = '#3aafa9'
     document.getElementById('sessao2').style.backgroundColor = '#3aafa9'
+
+    document.getElementById('icone-menu').style.color = 'white'
+
+    document.getElementById('x').style.color = 'white'
+
+    document.getElementById('logo').style.filter = 'none'
+    document.getElementById('lista').className = 'lista'
     
 }
 
