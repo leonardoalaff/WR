@@ -5,6 +5,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+
+
 
 @media only screen and (max-width: 600px) {
 
@@ -364,9 +368,9 @@ h2.especialidades2 {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
-    color: transparent;
-    -webkit-text-stroke: 1px white;
+    color: white;
     letter-spacing: 7px;
+    font-family: 'Cinzel', serif;
 }
 
 
@@ -404,11 +408,12 @@ h2.especialidades2 {
 }
 
 .auri-texto {
-    background-color: white;
+    color: white;
     text-align: left;
     padding: 25px;
-    font-size: 18px;
+    font-size: 15.5px;
     height: 100vh;
+    font-family: 'Kalnia', serif;
 }
 
 }
