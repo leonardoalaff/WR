@@ -188,6 +188,18 @@ ul a {
     height: 100vh;
 }
 
+.whatsapp-img {
+    transform: scale(0.25);
+    
+    
+}
+
+.whatsapp {
+    position: fixed;
+    top: 380px;
+    right: -60px;
+}
+
 .banner{
     width: 100vw;
     height: 350px;
@@ -338,48 +350,46 @@ h2.especialidades2 {
 
 /***** SESSÃO 3 *****/
 .sessao3 {
+    overflow-y: hidden;
     width: 100vw;
     height: 100vh;
+    background: black;
 }
 
-.roxo {
+.auri-titulo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    letter-spacing: 7px;
+}
+
+
+.cabeca {
+    position: relative;
+    transform: scale(1);
+    left: 50px;
+    
+}
+
+.out-cabeca {
+    background-color: black;
+    height: 100vh;
     width: 100vw;
-    height: 200px;
-    background-color: rgb(70, 9, 70);
 }
 
-.setas {
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: -120px;
-    color: white;
+.orelha {
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.28);
+    top: 1470px;
+    left: 77px;
 }
 
-.setas p {
-    padding: 90px;
-}
-
-.psi {
-    background-color: aqua;
-    width: auto;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    display: none; /** Alteração **/
-}
-
-.background {
-    width: 100vw;
-    height: 300px;
-}
-
-.qualidade {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: white;
+.orelha:hover {
+    transition-duration: 0.3s;
+    transform: scale(1);
 }
 
 }

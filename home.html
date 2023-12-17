@@ -10,7 +10,7 @@
 <body>
     <div class="container"> <!-- Abre container -->
         <header>
-            <div class="cabecalho" id="cabecalho"> <!-- Abre cabeçalho -->
+            <div onclick="foco()" class="cabecalho" id="cabecalho"> <!-- Abre cabeçalho -->
 
                 <img class="logo" src="imagens/logo.png" alt="Logo">
 
@@ -60,6 +60,10 @@
                 <div class="foto2" id="foto2"><img src="imagens/foto3.svg" alt=""></div>
             </div>
 
+            <div class="whatsapp">
+                <img class="whatsapp-img" src="imagens/whatsapp.svg" alt="">
+            </div>
+
            <h2 class="especialidades" id="especialidades">SOBRE MIM</h2>
            <p class="lorem" id="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt veniam a officia maxime soluta reiciendis eaque.</p>
            <a href="#"><button class="btn" id="btn">MARCAR HORÁRIO</button></a>
@@ -70,7 +74,12 @@
         </section>
 
         <section class="sessao3"> <!-- SESSÃO 3 -->
-            <div class="roxo"></div>
+            <h1 onclick="foco()" class="auri-titulo" id="auri-titulo">AURICULOTERAPIA</h1>
+           <div class="auri">
+            <img onclick="desfoque()" class="orelha" id="orelha" src="imagens/orelha.svg" alt="">
+            <img class="cabeca" id="cabeca" src="imagens/cabeca.svg" alt="">
+           </div>
+           <div onclick="foco()" class="out-cabeca"></div>
         </section>
     </div> <!-- Fecha container -->
 </body>

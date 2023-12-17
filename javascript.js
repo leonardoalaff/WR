@@ -49,3 +49,13 @@ function clean() {
     document.getElementById('sessao2').style.backgroundColor = '#3aafa9'
     
 }
+
+function desfoque() {
+    document.getElementById('cabeca').style.filter = 'blur(15px)'
+    document.getElementById('auri-titulo').style.filter = 'blur(15px)'
+}
+
+function foco() {
+    document.getElementById('cabeca').style.filter = 'none'
+    document.getElementById('auri-titulo').style.filter = 'none'
+}
