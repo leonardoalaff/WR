@@ -37,7 +37,7 @@ header {
 
 .cabecalho {
     overflow-y: hidden;
-    background-color: #3aafa9;
+    background-color: #005fc7;
     width: 100vw;
     position: fixed;
     display: flex;
@@ -65,7 +65,7 @@ header {
 
 /***** DARK MODE DIA *****/
 .dark-mode {
-    background-color: #297e77;
+    background-color: #006fc7;
     margin-top: 35px;
     width: 50px;
     height: 25px;
@@ -83,7 +83,7 @@ header {
 
 .mode {
     position: absolute;
-    background-color: #3aafa9;
+    background-color: #005fc7;
     width: 20px;
     height: 20px;
     border-radius: 10px;
@@ -133,7 +133,7 @@ header {
 }
 
 .menu {
-    background-color: #3aafa9;
+    background-color: #007fc7;
     position: fixed;
     top: 0;
     left: 0;
@@ -172,7 +172,7 @@ ul a {
 
 /**** ATIVAR MENU ****/
 .menu2 {
-    background-color: #3aafa9;
+    background-color: #007fc7;
     box-shadow: 0 7px 15px black;
     position: fixed;
     top: 0;
@@ -224,14 +224,14 @@ ul a {
     width: 100vw;
     height: 350px;
     overflow-y: hidden;
-    background-color: cadetblue;
+    background-color: #007fc7;
 }
 
 .banner2{
     width: 100vw;
     height: 350px;
     overflow-y: hidden;
-    background-color: black;
+    background: url('imagens/bg-s1.svg') no-repeat;
 }
 
 .banner h1 {
@@ -242,7 +242,7 @@ ul a {
     letter-spacing: 6px;
     font-size: 20px;
     z-index: 3;
-    background-color: #297e77;
+    background-color: #005fc7;
 }
 
 .banner2 h1 {
@@ -288,7 +288,7 @@ ul a {
 .bola {
     width: 250px;
     height: 250px;
-    background-color: #3aafa9;
+    background-color: #005fc7;
     border-radius: 250px 0 0 250px;
 }
 
@@ -326,7 +326,7 @@ ul a {
 
 h2.especialidades {
     font-size: 21px;
-    color: #3aafa9;
+    color: #007fc7;
     text-align: left;
     margin-top: 50px;
     margin-left: 40px;
@@ -351,7 +351,7 @@ h2.especialidades2 {
 }
 
 .btn {
-    background-color: #3aafa9;
+    background-color: #007fc7;
     border: 0;
     border-radius: 3px;
     margin-left: 40px;
@@ -362,7 +362,7 @@ h2.especialidades2 {
 
 /***** SESSÃO 2 *****/
 .sessao2 {
-    background-color: #3aafa9;
+    background-color: #007fc7;
     width: 100vw;
     height: 100vh;
 }

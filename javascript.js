@@ -52,9 +52,9 @@ function clean() {
     document.getElementById('especialidades').className = 'especialidades'
     document.getElementById('sessao1').style.backgroundColor = 'white'
     document.getElementById('lorem').style.color = 'black'
-    document.getElementById('menu').style.backgroundColor = '#3aafa9'
-    document.getElementById('btn').style.backgroundColor = '#3aafa9'
-    document.getElementById('sessao2').style.backgroundColor = '#3aafa9'
+    document.getElementById('menu').style.backgroundColor = '#007fc7'
+    document.getElementById('btn').style.backgroundColor = '#007cf7'
+    document.getElementById('sessao2').style.backgroundColor = '#007fc7'
 
     document.getElementById('icone-menu').style.color = 'white'
 
