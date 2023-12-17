@@ -57,6 +57,9 @@ function desfoque() {
     document.getElementById('sessao3').style.backgroundColor = '#333333' 
 
     document.getElementById('auri-texto').style.filter = 'blur(15px)'
+
+    document.getElementById('ler').style.filter = 'blur(15px)'
+    document.getElementById('nao-ler').style.filter = 'blur(15px)'
 }
 
 function foco() {
@@ -66,4 +69,19 @@ function foco() {
     document.getElementById('sessao3').style.backgroundColor = 'black' 
 
     document.getElementById('auri-texto').style.filter = 'none'
+
+    document.getElementById('ler').style.filter = 'none'
+    document.getElementById('nao-ler').style.filter = 'none'
+}
+
+function ler() {
+    document.getElementById('auri-texto').style.backgroundColor = 'black'
+    document.getElementById('ler').style.display = 'none'
+    document.getElementById('nao-ler').style.display = 'block'
+}
+
+function nler() {
+    document.getElementById('auri-texto').style.background = 'none'
+    document.getElementById('ler').style.display = 'block'
+    document.getElementById('nao-ler').style.display = 'none'
 }

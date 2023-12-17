@@ -7,6 +7,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Murecho&display=swap');
 
 
 
@@ -372,7 +374,7 @@ h2.especialidades2 {
     margin-bottom: 50px;
     color: white;
     letter-spacing: 7px;
-    font-family: 'Cinzel', serif;
+    font-family: 'Murecho', sans-serif;
 }
 
 
@@ -386,7 +388,6 @@ h2.especialidades2 {
     overflow-y: hidden;
     background-color: transparent;
     height: 100vh;
-    width: 100vw;
 }
 
 .orelha-box {
@@ -398,7 +399,7 @@ h2.especialidades2 {
 }
 
 .orelha {
-    z-index: 1;
+    z-index: 2;
     transform: scale(0.28);
     filter: hue-rotate(215deg);
 }
@@ -409,13 +410,33 @@ h2.especialidades2 {
     filter: none;
 }
 
+.ler {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 40px;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.nao-ler {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 40px;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    display: none;
+}
+
 .auri-texto {
     color: white;
     text-align: left;
     padding: 25px;
-    font-size: 15.5px;
+    font-size: 21px;
     height: 100vh;
-    font-family: 'Kalnia', serif;
+    font-family: 'Dongle', sans-serif;
 }
 
 
@@ -427,5 +448,12 @@ h2.especialidades2 {
         background-position-x: 100%;
     }
 }
+
+/***** SESSÃO 4 *****/
+.sessao4 {
+    width: 100vw;
+    height: 100vh;
+}
+
 
 }
