@@ -20,6 +20,10 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    overflow: hidden;
+}
+
 header {
     width: 100vw;
     height: 93px;
@@ -370,21 +374,26 @@ h2.especialidades2 {
     position: relative;
     transform: scale(1);
     left: 50px;
-    
 }
 
 .out-cabeca {
-    background-color: black;
+    overflow-y: hidden;
+    background-color: transparent;
     height: 100vh;
     width: 100vw;
 }
 
-.orelha {
+.orelha-box {
     position: absolute;
+    display: flex;
+    transform: translatey(-13%);
+    left: 77px;
+    z-index: 1;
+}
+
+.orelha {
     z-index: 1;
     transform: scale(0.28);
-    top: 1470px;
-    left: 77px;
     filter: hue-rotate(215deg);
 }
 
@@ -392,6 +401,14 @@ h2.especialidades2 {
     transition-duration: 0.3s;
     transform: scale(1);
     filter: none;
+}
+
+.auri-texto {
+    background-color: white;
+    text-align: left;
+    padding: 25px;
+    font-size: 18px;
+    height: 100vh;
 }
 
 }
