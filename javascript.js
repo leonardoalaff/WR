@@ -53,9 +53,13 @@ function clean() {
 function desfoque() {
     document.getElementById('cabeca').style.filter = 'blur(15px)'
     document.getElementById('auri-titulo').style.filter = 'blur(15px)'
+
+    document.getElementById('sessao3').style.backgroundColor = '#333333'
 }
 
 function foco() {
     document.getElementById('cabeca').style.filter = 'none'
     document.getElementById('auri-titulo').style.filter = 'none'
+
+    document.getElementById('sessao3').style.backgroundColor = 'black'
 }
