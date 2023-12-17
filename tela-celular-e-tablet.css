@@ -361,7 +361,9 @@ h2.especialidades2 {
     overflow-y: hidden;
     width: 100vw;
     height: 100vh;
-    background: black;
+    background-image: linear-gradient(to left, rgb(0, 255, 200), purple, #007fc7);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s infinite alternate;
 }
 
 .auri-titulo {
@@ -414,7 +416,16 @@ h2.especialidades2 {
     font-size: 15.5px;
     height: 100vh;
     font-family: 'Kalnia', serif;
-    background-color: black;
+}
+
+
+@keyframes degrade-animado {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-x: 100%;
+    }
 }
 
 }
