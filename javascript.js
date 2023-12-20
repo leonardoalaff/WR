@@ -10,61 +10,6 @@ function fecharMenu() {
     document.querySelector('.menu2').className = 'menu'
 }
 
-function dark() {
-    document.getElementById('mode').style.display = 'none'
-    document.getElementById('dark-mode').style.display = 'none'
-
-    document.getElementById('dark-mode2').style.display = 'flex'
-    document.getElementById('mode2').style.display = 'block'
-
-    document.getElementById('cabecalho').className = 'cabecalho2'
-    document.getElementById('banner').className = 'banner2'
-    document.getElementById('foto').style.display = 'none'
-    document.getElementById('foto2').style.display = 'flex'
-    document.getElementById('especialidades').className = 'especialidades2'
-    document.getElementById('sessao1').style.backgroundColor = '#ceab97'
-    document.getElementById('lorem').style.color = 'black'
-    document.getElementById('menu').style.backgroundColor = '#ceab97'
-    document.getElementById('lista').className = 'lista2'
-
-    document.getElementById('btn').style.backgroundColor = 'black'
-    document.getElementById('sessao2').style.backgroundColor = 'black'
-
-    document.getElementById('icone-menu').style.color = 'black'
-
-    document.getElementById('x').style.color = 'black'
-
-    document.getElementById('logo').style.filter = 'brightness(0%)'
-}
-
-
-function clean() {
-    document.getElementById('dark-mode2').style.display = 'none'
-    document.getElementById('mode2').style.display = 'none'
-
-    document.getElementById('dark-mode').style.display = 'flex'
-    document.getElementById('mode').style.display = 'block'
-
-    document.getElementById('cabecalho').className = 'cabecalho'
-    document.getElementById('banner').className = 'banner'
-    document.getElementById('foto2').style.display = 'none'
-    document.getElementById('foto').style.display = 'flex'
-    document.getElementById('especialidades').className = 'especialidades'
-    document.getElementById('sessao1').style.backgroundColor = 'white'
-    document.getElementById('lorem').style.color = 'black'
-    document.getElementById('menu').style.backgroundColor = '#007fc7'
-    document.getElementById('btn').style.backgroundColor = '#007cf7'
-    document.getElementById('sessao2').style.backgroundColor = '#007fc7'
-
-    document.getElementById('icone-menu').style.color = 'white'
-
-    document.getElementById('x').style.color = 'white'
-
-    document.getElementById('logo').style.filter = 'none'
-    document.getElementById('lista').className = 'lista'
-    
-}
-
 function desfoque() {
     document.getElementById('cabeca').style.filter = 'blur(15px)'
     document.getElementById('auri-titulo').style.filter = 'blur(15px)'

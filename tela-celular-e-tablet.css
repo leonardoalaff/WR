@@ -45,80 +45,10 @@ header {
     z-index: 4;
 }
 
-.cabecalho2 {
-    overflow-y: hidden;
-    background-color: #ceab97;
-    /*background: url('imagens/bg-cab.svg') no-repeat;*/
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    position: fixed;
-    display: flex;
-    justify-content: space-between;
-    z-index: 4;
-}
-
 .logo {
     transform: scale(1.4);
     padding: 20px;
 }
-
-/***** DARK MODE DIA *****/
-.dark-mode {
-    background-color: #006fc7;
-    margin-top: 35px;
-    width: 50px;
-    height: 25px;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    border-radius: 20px;
-    background-position: center center;
-    background-size: cover;
-}
-
-.img-dark {
-    position: relative;
-}
-
-.mode {
-    position: absolute;
-    background-color: #005fc7;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    margin: 2px;
-    margin-bottom: 5px;
-    box-shadow: 1px 3px 3px black;
-}
-
-/***** DARK MODE NOITE *****/
-.dark-mode2 {
-    background-color: #6e5b50;
-    margin-top: 35px;
-    width: 50px;
-    height: 25px;
-    display: none;
-    justify-content: right;
-    align-items: center;
-    border-radius: 20px;
-    background-position: center center;
-    background-size: cover;
-}
-
-.mode2 {
-    position: absolute;
-    background-color: black;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    margin: 2px;
-    margin-bottom: 5px;
-    margin-right: 3px;
-    box-shadow: 1px 3px 3px black;
-    display: none;
-}
-
 .icone-menu {
     font-size: 40px;
     padding: 20px;
@@ -162,14 +92,6 @@ ul a {
     text-decoration: none;
 }
 
-.lista2 li {
-    color: black;
-}
-
-.menu2 .lista2 li {
-    color: black;
-}
-
 /**** ATIVAR MENU ****/
 .menu2 {
     background-color: #007fc7;
@@ -200,7 +122,8 @@ ul a {
 }
 
 .menu2 li:hover {
-    background-color: #297e77;
+    background-color: white;
+    color: #007fc7;
 }
 
 /***** SESSÃO 1 *****/
@@ -227,13 +150,6 @@ ul a {
     background-color: #007fc7;
 }
 
-.banner2{
-    width: 100vw;
-    height: 350px;
-    overflow-y: hidden;
-    background: url('imagens/bg-s1.svg') no-repeat;
-}
-
 .banner h1 {
     color: white;
     font-weight: bold;
@@ -245,16 +161,6 @@ ul a {
     background-color: #005fc7;
 }
 
-.banner2 h1 {
-    color: black;
-    font-weight: bold;
-    padding: 10px;
-    font-weight: lighter;
-    letter-spacing: 6px;
-    font-size: 20px;
-    z-index: 3;
-    background-color: #ceab97;
-}
 
 .h11 {
     position: relative;
@@ -292,13 +198,6 @@ ul a {
     border-radius: 250px 0 0 250px;
 }
 
-.banner2 .bola {
-    width: 250px;
-    height: 250px;
-    background-color: #ceab97;
-    border-radius: 250px 0 0 250px;
-}
-
 .bola2 {
     display: flex;
     justify-content: right;
@@ -315,27 +214,9 @@ ul a {
     
 }
 
-.foto2 {
-    position: relative;
-    top: -230px;
-    display: flex;
-    justify-content: right;
-    transform: scale(2);
-    display: none;
-}
-
 h2.especialidades {
     font-size: 21px;
     color: #007fc7;
-    text-align: left;
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-bottom: 10px;
-}
-
-h2.especialidades2 {
-    font-size: 21px;
-    color: black;
     text-align: left;
     margin-top: 50px;
     margin-left: 40px;
